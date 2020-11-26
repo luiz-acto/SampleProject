@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self.umItem setBackgroundImage:[UIImage imageNamed:@"Green"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
     // Do any additional setup after loading the view.
 }
 
